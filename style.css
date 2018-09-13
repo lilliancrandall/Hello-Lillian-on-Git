@@ -112,7 +112,7 @@ div.desc {
 .process{
   font-family: futura;
   top:1200px; 
-  left:630px;
+  left:660px;
   position: absolute;
   font-size:30px;
   /* opacity: 0.5; */
@@ -179,4 +179,12 @@ img:hover  {
   padding-top: 30px;
   width: 1400px;
   height:500px;
+}
+
+body{
+  font-family: futura;
+}
+
+h3{
+  text-align: center;
 }
