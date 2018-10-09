@@ -51,11 +51,10 @@
 
 
 .thursdayexplain{
-  /* padding-top: 0px; */
-  /* margin-left: 10px;
-  margin-right: 10px; */
+   padding: 0px 10px 5px; 
+ 
   text-align: center;
-  max-width: 300px;
+  /* max-width: 50%; */
 }
 
 
@@ -152,7 +151,7 @@ height: 400px;
 div{
   background-color: rgb(241, 241, 241) ;
   padding-bottom: 20px;
-  padding-top: 30px;
+  padding-top: 3px;
   
 }
 
@@ -167,18 +166,25 @@ div{
 }
 
 .friday{
+  /* box-align: center; */
+  /* position: relative; */
+   /* max-width:400px; */
+  /* height: 400px; */
+   position: center;  
+  /* /* margin-left: 10px; */
+  /* margin-right: 10px;   */
+ 
+    padding: 0px 10px 5px; 
   
-  width:400px;
-  height: 400px;
-  padding-top: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
+  box-align: middle;
+   max-width: 100%;
+ 
 }
 
 section {
   /* max-width: 1000px; */
  position:center;
- width: 50%;
+ width: 100%;
  border: solid;
  border-width: 1px;
  /* flex-wrap: wrap; */
@@ -186,11 +192,11 @@ section {
 
 .columns{
   display: flex;
-  max-width: 1000px;
+  padding: 30px;
 }
 
 .column{
-  width: 60%;
+  width: 50%;
 }
 
 
